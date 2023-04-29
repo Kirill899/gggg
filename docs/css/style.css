@@ -2,9 +2,9 @@ html,body{
     font-family: Lato, sans-serif;
     color: #424551;
     line-height:160%;
+    
 }
-
-
+ 
 .wrapper{
     min-height:100%;
     width: 100%;
@@ -1412,9 +1412,7 @@ height: 100%;
 
 
 
-.main_questions {
-  padding-bottom:180px;
-}
+
 .questions {
 }
 .container {
@@ -1464,14 +1462,11 @@ height: 100%;
   width: 100%;
   margin-top: 8px;
 }
-.questions_form-input::placeholder,
+._form-input::placeholder,
 .questions_form-text::placeholder {
   color: #9A9CA5;
 }
-.questions_form-default:checked+.questions_form-custom {
-  background: url("../images/icons/check.svg") 50% 50% no-repeat, #FF3F3A;
-  border: 1px solid #FF3F3A;
-}
+
 .questions_checkbox-label {
   margin-right: 50px;
   display: flex;
@@ -1492,7 +1487,7 @@ height: 100%;
   position: absolute;
   clip: rect(0, 0, 0, 0);
 }
-.questions_form-default:checked+.questions_form-custom {
+.questions_form-default:checked+ .questions_form-custom {
   background: url("/images/decor/check56.svg") 50% 50% no-repeat, #FF3F3A;
   border: 1px solid #FF3F3A;
 }
