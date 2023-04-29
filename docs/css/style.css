@@ -1380,15 +1380,15 @@ height: 100%;
 .info_socials-link {
 }
 .info_mail .info_item-top::before {
-  background: url("/images/decor/info_mail.svg") 0 0 / 100% no-repeat;
+  background: url("images/decor/info_mail.svg") 0 0 / 100% no-repeat;
 }
 
 .info_tel .info_item-top::before {
-  background: url("/images/decor/phone.svg") 0 0 / 100% no-repeat;
+  background: url("images/decor/phone.svg") 0 0 / 100% no-repeat;
 }
 
 .info_address .info_item-top::before {
-  background: url("/images/decor/adress.svg") 0 0 / 100% no-repeat;
+  background: url("images/decor/adress.svg") 0 0 / 100% no-repeat;
 }
 .info_socials-link path {
   transition: all .3s;
@@ -1488,7 +1488,7 @@ height: 100%;
   clip: rect(0, 0, 0, 0);
 }
 .questions_form-default:checked+ .questions_form-custom {
-  background: url("/images/decor/check56.svg") 50% 50% no-repeat, #FF3F3A;
+  background: url("../images/decor/check56.svg") 50% 50% no-repeat, #FF3F3A;
   border: 1px solid #FF3F3A;
 }
 .questions_form-custom {
